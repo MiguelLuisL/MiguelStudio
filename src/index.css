@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body, #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    touch-action: none;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #06050a;
+    color: #f1f5f9;
+  }
+}
+
+.font-display {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-dialogue {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+@keyframes pulseFear {
+  0% { opacity: 0.35; }
+  100% { opacity: 0.9; }
+}
+
+.fear-vignette-active {
+  animation: pulseFear 0.55s ease-in-out infinite alternate;
+}

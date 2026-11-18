@@ -1,0 +1,6 @@
+{
+  "name": "Eco da Escola Sombria",
+  "description": "Jogo 2D estilo visual novel de terror e exploração inspirado em Undertale. Escapa de uma escola assombrada, foge da criatura, toma decisões com consequências e descobre 6 finais mais 1 secreto.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
